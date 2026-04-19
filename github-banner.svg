@@ -1,0 +1,114 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .mono { font-family: 'Courier New', Courier, monospace; }
+      .ch   { opacity: 0; }
+      .cur  { animation: bl 1s step-start infinite; }
+      @keyframes bl { 0%,100%{opacity:1} 50%{opacity:0} }
+      @keyframes ap { to { opacity: 1; } }
+      .c1  { animation: ap .07s  0.30s forwards; }
+      .c2  { animation: ap .07s  0.38s forwards; }
+      .c3  { animation: ap .07s  0.46s forwards; }
+      .c4  { animation: ap .07s  0.54s forwards; }
+      .c5  { animation: ap .07s  0.62s forwards; }
+      .c6  { animation: ap .07s  0.70s forwards; }
+      .c7  { animation: ap .07s  0.78s forwards; }
+      .c8  { animation: ap .07s  0.86s forwards; }
+      .c9  { animation: ap .07s  0.94s forwards; }
+      .c10 { animation: ap .07s  1.02s forwards; }
+      .c11 { animation: ap .07s  1.10s forwards; }
+      .c12 { animation: ap .07s  1.18s forwards; }
+      .c13 { animation: ap .07s  1.26s forwards; }
+      .c14 { animation: ap .07s  1.34s forwards; }
+      .c15 { animation: ap .07s  1.42s forwards; }
+      .c16 { animation: ap .07s  1.50s forwards; }
+      .c17 { animation: ap .07s  1.58s forwards; }
+      .c18 { animation: ap .07s  1.66s forwards; }
+      .c19 { animation: ap .07s  1.74s forwards; }
+      .c20 { animation: ap .07s  1.82s forwards; }
+      .c21 { animation: ap .07s  1.90s forwards; }
+      .c22 { animation: ap .07s  1.98s forwards; }
+      .c23 { animation: ap .07s  2.06s forwards; }
+      .c24 { animation: ap .07s  2.14s forwards; }
+      .c25 { animation: ap .07s  2.22s forwards; }
+      .c26 { animation: ap .07s  2.30s forwards; }
+      .c27 { animation: ap .07s  2.38s forwards; }
+      .c28 { animation: ap .07s  2.46s forwards; }
+      .c29 { animation: ap .07s  2.54s forwards; }
+      .c30 { animation: ap .07s  2.62s forwards; }
+      .c31 { animation: ap .07s  2.70s forwards; }
+      .c32 { animation: ap .07s  2.78s forwards; }
+      .c33 { animation: ap .07s  2.86s forwards; }
+    </style>
+  </defs>
+
+  <!-- Terminal window background -->
+  <rect width="900" height="200" rx="10" fill="#0d1117"/>
+
+  <!-- Title bar -->
+  <rect width="900" height="34" rx="10" fill="#161b22"/>
+  <rect y="22" width="900" height="12" fill="#161b22"/>
+
+  <!-- Traffic light dots -->
+  <circle cx="26" cy="17" r="6" fill="#ff5f57"/>
+  <circle cx="48" cy="17" r="6" fill="#febc2e"/>
+  <circle cx="70" cy="17" r="6" fill="#28c840"/>
+
+  <!-- Terminal title -->
+  <text x="450" y="22" text-anchor="middle" class="mono" font-size="12" fill="#6e7681">bash — 80x24</text>
+
+  <!-- Title bar bottom separator -->
+  <line x1="0" y1="34" x2="900" y2="34" stroke="#30363d" stroke-width="1"/>
+
+  <!-- Last login line -->
+  <text x="25" y="60" class="mono" font-size="12" fill="#484f58">Last login: Sat Apr 18 10:24:32 on ttys001</text>
+
+  <!-- Past command line -->
+  <text x="25" y="88" class="mono" font-size="14">
+    <tspan fill="#3fb950">user@cs</tspan><tspan fill="#8b949e">:</tspan><tspan fill="#58a6ff">~/dev</tspan><tspan fill="#8b949e">$ </tspan><tspan fill="#6e7681">echo "Hello, CS world!"</tspan>
+  </text>
+
+  <!-- Output of past command -->
+  <text x="25" y="112" class="mono" font-size="14" fill="#6e7681">Hello, CS world!</text>
+
+  <!-- Active prompt with typing animation -->
+  <text x="25" y="152" class="mono" font-size="14">
+    <tspan fill="#3fb950">user@cs</tspan><tspan fill="#cdd9e5">:</tspan><tspan fill="#58a6ff">~/dev</tspan><tspan fill="#cdd9e5">$ </tspan>
+    <tspan class="ch c1"  fill="#79c0ff">w</tspan>
+    <tspan class="ch c2"  fill="#79c0ff">h</tspan>
+    <tspan class="ch c3"  fill="#79c0ff">i</tspan>
+    <tspan class="ch c4"  fill="#79c0ff">l</tspan>
+    <tspan class="ch c5"  fill="#79c0ff">e</tspan>
+    <tspan class="ch c6"  fill="#cdd9e5">(</tspan>
+    <tspan class="ch c7"  fill="#ffa657">a</tspan>
+    <tspan class="ch c8"  fill="#ffa657">l</tspan>
+    <tspan class="ch c9"  fill="#ffa657">i</tspan>
+    <tspan class="ch c10" fill="#ffa657">v</tspan>
+    <tspan class="ch c11" fill="#ffa657">e</tspan>
+    <tspan class="ch c12" fill="#cdd9e5">)</tspan>
+    <tspan class="ch c13" fill="#cdd9e5"> </tspan>
+    <tspan class="ch c14" fill="#cdd9e5">{</tspan>
+    <tspan class="ch c15" fill="#cdd9e5"> </tspan>
+    <tspan class="ch c16" fill="#7ee787">k</tspan>
+    <tspan class="ch c17" fill="#7ee787">e</tspan>
+    <tspan class="ch c18" fill="#7ee787">e</tspan>
+    <tspan class="ch c19" fill="#7ee787">p</tspan>
+    <tspan class="ch c20" fill="#7ee787">_</tspan>
+    <tspan class="ch c21" fill="#7ee787">l</tspan>
+    <tspan class="ch c22" fill="#7ee787">e</tspan>
+    <tspan class="ch c23" fill="#7ee787">a</tspan>
+    <tspan class="ch c24" fill="#7ee787">r</tspan>
+    <tspan class="ch c25" fill="#7ee787">n</tspan>
+    <tspan class="ch c26" fill="#7ee787">i</tspan>
+    <tspan class="ch c27" fill="#7ee787">n</tspan>
+    <tspan class="ch c28" fill="#7ee787">g</tspan>
+    <tspan class="ch c29" fill="#cdd9e5">(</tspan>
+    <tspan class="ch c30" fill="#cdd9e5">)</tspan>
+    <tspan class="ch c31" fill="#cdd9e5">;</tspan>
+    <tspan class="ch c32" fill="#cdd9e5"> </tspan>
+    <tspan class="ch c33" fill="#cdd9e5">}</tspan>
+  </text>
+
+  <!-- Blinking cursor -->
+  <rect x="428" y="138" width="9" height="16" fill="#cdd9e5" class="cur"/>
+</svg>
