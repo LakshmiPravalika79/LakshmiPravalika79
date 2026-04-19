@@ -208,36 +208,10 @@ End-to-end ML model serving with FastAPI + Docker. Covers scalable API design an
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/LakshmiPravalika79/LakshmiPravalika79/output/github-snake.svg" alt="contribution snake"/>
+<img src="https://raw.githubusercontent.com/LakshmiPravalika79/LakshmiPravalika79/output/github-snake.svg?v=1" alt="contribution snake"/>
 
 </div>
 
-<details>
-<summary>⚙️ Setup snake animation (one-time)</summary>
-
-Create `.github/workflows/snake.yml` in this repo:
-
-```yaml
-name: Generate Snake
-on:
-  schedule: [{ cron: "0 0 * * *" }]
-  workflow_dispatch:
-jobs:
-  generate:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: Platane/snk@v3
-        with:
-          github_user_name: LakshmiPravalika79
-          outputs: dist/github-snake.svg?palette=github-dark
-      - uses: crazy-max/ghaction-github-pages@v3
-        with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-```
-</details>
 
 ---
 
