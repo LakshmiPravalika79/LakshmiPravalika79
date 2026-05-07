@@ -70,15 +70,14 @@ class LakshmiPravalika:
 ---
 
 ## `$ ./github_stats.sh`
-
 <div align="center">
 
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=LakshmiPravalika79&show_icons=true&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&icon_color=3fb950&count_private=true&rank_icon=github"/>
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com?user=LakshmiPravalika79&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ffa657&currStreakLabel=58a6ff&sideLabels=8b949e"/>
 
-<br/><br/>
+<img width="49%" src="https://streak-stats.demolab.com?user=LakshmiPravalika79&theme=github-dark-blue&hide_border=true&background=0d1117&ring=58a6ff&fire=ffa657&currStreakLabel=58a6ff&sideLabels=8b949e"/>
 
-<img width="42%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=LakshmiPravalika79&layout=donut&theme=github_dark&hide_border=true&bg_color=0d1117&title_color=58a6ff&text_color=8b949e&langs_count=8&hide=css,html"/>
+</div>
+
+
 
 <br/>
 
@@ -91,8 +90,6 @@ class LakshmiPravalika:
 ![CSS](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 
 </div>
-
----
 
 ---
 
